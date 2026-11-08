@@ -1,0 +1,40 @@
+{
+  "id": "kz0w8dvv2n",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Listeden ziyarete; sözleşmeden teslim.",
+    "en": "From list to visit; from contract to handover.",
+    "ar": "من القائمة إلى الزيارة؛ من العقد إلى التسليم."
+  },
+  "keyword": {
+    "tr": "Konut & Kiralık",
+    "en": "Housing & Rental",
+    "ar": "سكن وكراء"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "t8tgzm",
+      "g8vkoc"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:37.893Z",
+  "update": "2026-11-05T23:44:40.267Z"
+}
