@@ -22,8 +22,8 @@
   "pathnext": "",
   "description": {
     "tr": "Satış ve kiralama; görseller temsilîdir.",
-    "en": "Sales and rental; images are representative.",
-    "ar": "بيع وكراء؛ الصور تمثيلية."
+    "en": "Sales and rentals; images are representative.",
+    "ar": "بيع وإيجار؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:40.271Z",
+  "update": "2026-11-12T07:36:20.426Z",
   "date": "2026-10-30"
 }

@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Listeden ziyarete; sözleşmeden teslim.",
-        "en": "From list to visit; from contract to handover.",
-        "ar": "من القائمة إلى الزيارة؛ من العقد إلى التسليم."
+        "tr": "İlandan yer gösterimine; tekliften anahtar teslimine.",
+        "en": "From listing to viewing; from offer to handing over the keys.",
+        "ar": "من الإعلان إلى المعاينة؛ ومن العرض إلى تسليم المفاتيح."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -50,8 +50,8 @@
       "pathnext": "",
       "description": {
         "tr": "Satış ve kiralama; görseller temsilîdir.",
-        "en": "Sales and rental; images are representative.",
-        "ar": "بيع وكراء؛ الصور تمثيلية."
+        "en": "Sales and rentals; images are representative.",
+        "ar": "بيع وإيجار؛ الصور تمثيلية."
       }
     },
     {

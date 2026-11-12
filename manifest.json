@@ -1,7 +1,7 @@
 {
   "name": "Emlak Danışman",
   "short_name": "Emlak Danışm",
-  "description": "Satış ve kiralama; görseller temsilîdir.",
+  "description": "Satılık ve kiralık konut, işyeri ve ofis; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
