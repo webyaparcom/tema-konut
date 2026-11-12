@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Satış ve kiralama; görseller temsilîdir.",
-    "en": "Sales and rental; images are representative.",
-    "ar": "بيع وكراء؛ الصور تمثيلية."
+    "tr": "Satılık ve kiralık konut, işyeri ve ofis; görseller temsilîdir.",
+    "en": "Homes for sale and rent, shops and offices; images are representative.",
+    "ar": "منازل للبيع والإيجار ومحلات ومكاتب؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "emlak, daire, satış",
-    "en": "real estate, apartment, sale",
-    "ar": "عقارات، شقة، بيع"
+    "tr": "emlak, satılık daire, kiralık konut, ofis, danışman",
+    "en": "real estate, flats for sale, rentals, offices, agent",
+    "ar": "عقارات، شقق للبيع، منازل للإيجار، مكاتب، مستشار"
   },
   "category": "Kurumsal",
   "name": "Emlak Danışman",

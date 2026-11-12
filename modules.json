@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu al",
+          "en": "Book a viewing",
+          "ar": "احجز موعدًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1534,29 +1545,29 @@
         "radius": "16px",
         "eyebrow": {
           "tr": "Emlak & danışmanlık",
-          "en": "Real estate & advisory",
-          "ar": "عقارات واستشارة"
+          "en": "Real estate & advice",
+          "ar": "عقارات واستشارات"
         },
         "title": {
-          "tr": "Ölçü, evi bulur",
-          "en": "The measure finds the home",
-          "ar": "القياس يجد المنزل"
+          "tr": "Doğru evi, birlikte bulalım",
+          "en": "Let’s find the right home together",
+          "ar": "لنجد المنزل المناسب معًا"
         },
         "metin": {
-          "tr": "Emlak Danışman, satış ve kiralama sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Emlak provides sales and rental. Images are representative and text is fictional.",
-          "ar": "يوفر عقار بيع وكراء. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Emlak Danışman; satılık ve kiralık konut, işyeri ve ofis için ilan, yer gösterimi ve sözleşme desteği sunar. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Emlak Danışman offers listings, viewings and contract support for homes, shops and offices for sale and rent. Images are representative and text is fictional.",
+          "ar": "Emlak Danışman تقدّم إعلانات ومعاينات ودعمًا في العقود للمنازل والمحلات والمكاتب للبيع والإيجار. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Emlaklar",
+          "tr": "İlanlar",
           "en": "Listings",
-          "ar": "عقارات"
+          "ar": "الإعلانات"
         },
         "cta1_url": "hizmetler",
         "cta2": {
           "tr": "Randevu iste",
-          "en": "Book a visit",
-          "ar": "احجز زيارة"
+          "en": "Request a viewing",
+          "ar": "اطلب موعدًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we offer?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Rakamlarla ofisimiz",
+          "en": "Our office in numbers",
+          "ar": "مكتبنا بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,11 +1626,11 @@
         {
           "deger": 24,
           "sonek": "",
-          "ikon": "home_repair_service",
+          "ikon": "home",
           "etiket": {
-            "tr": "Konut",
-            "en": "Homes",
-            "ar": "مساكن"
+            "tr": "Satılık ilan",
+            "en": "Listings for sale",
+            "ar": "إعلان بيع"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1632,9 +1643,9 @@
           "sonek": "",
           "ikon": "key",
           "etiket": {
-            "tr": "Kiralık",
-            "en": "Rentals",
-            "ar": "كراء"
+            "tr": "Kiralık ilan",
+            "en": "Listings for rent",
+            "ar": "إعلان إيجار"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1645,11 +1656,11 @@
         {
           "deger": 80,
           "sonek": "%",
-          "ikon": "schedule",
+          "ikon": "event_available",
           "etiket": {
-            "tr": "Ziyaret zamanında",
-            "en": "On-time visit",
-            "ar": "زيارة في الوقت"
+            "tr": "Randevuya uyum",
+            "en": "Viewings on schedule",
+            "ar": "معاينات في موعدها"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1660,11 +1671,11 @@
         {
           "deger": 6,
           "sonek": "",
-          "ikon": "gavel",
+          "ikon": "groups",
           "etiket": {
-            "tr": "Dosya",
-            "en": "Files",
-            "ar": "ملفات"
+            "tr": "Danışman",
+            "en": "Agents",
+            "ar": "مستشار"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Konut & Kiralık",
-          "en": "Housing & Rental",
-          "ar": "سكن وكراء"
+          "tr": "Satılık & kiralık",
+          "en": "For sale & rent",
+          "ar": "للبيع والإيجار"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
+          "tr": "Neler sunuyoruz?",
           "en": "What do we offer?",
-          "ar": "ماذا نقدم؟"
+          "ar": "ماذا نقدّم؟"
         },
         "description": {
-          "tr": "Listeden ziyarete; sözleşmeden teslim.",
-          "en": "From list to visit; from contract to handover.",
-          "ar": "من القائمة إلى الزيارة؛ من العقد إلى التسليم."
+          "tr": "İlandan yer gösterimine; tekliften anahtar teslimine.",
+          "en": "From listing to viewing; from offer to handing over the keys.",
+          "ar": "من الإعلان إلى المعاينة؛ ومن العرض إلى تسليم المفاتيح."
         }
       },
       "data": [
         {
-          "icon": "home_repair_service",
+          "icon": "home",
           "name": {
-            "tr": "Yeni konut",
-            "en": "New housing",
-            "ar": "سكن جديد"
+            "tr": "Satılık konut",
+            "en": "Homes for sale",
+            "ar": "منازل للبيع"
           },
           "description": {
-            "tr": "Daire ve rezidanans (demo).",
-            "en": "Apartment and residence (demo).",
-            "ar": "شقة ومسكن (تجريبي)."
+            "tr": "Daire, villa ve rezidans; konum ve bütçeye göre listeleme.",
+            "en": "Flats, villas and residences listed by location and budget.",
+            "ar": "شقق وفلل ومجمّعات سكنية حسب الموقع والميزانية."
           }
         },
         {
           "icon": "key",
           "name": {
-            "tr": "Kiralık",
-            "en": "For rent",
-            "ar": "للكراء"
+            "tr": "Kiralık konut",
+            "en": "Homes for rent",
+            "ar": "منازل للإيجار"
           },
           "description": {
-            "tr": "Aylık ve sezon kiralık (demo).",
-            "en": "Monthly and seasonal rental (demo).",
-            "ar": "كراء شهري وموسمي (تجريبي)."
+            "tr": "Aylık ve uzun dönem kiralık daireler.",
+            "en": "Monthly and long-term rental flats.",
+            "ar": "شقق للإيجار الشهري وطويل الأجل."
           }
         },
         {
-          "icon": "construction",
+          "icon": "business",
           "name": {
-            "tr": "İşyeri",
-            "en": "Workspace",
-            "ar": "مكتب"
+            "tr": "İşyeri ve ofis",
+            "en": "Shops and offices",
+            "ar": "محلات ومكاتب"
           },
           "description": {
-            "tr": "İşyeri ve ofis alanı.",
-            "en": "Workspace and office area.",
-            "ar": "منطقة عمل ومكتب."
+            "tr": "Dükkân, ofis ve depo kiralama ve satış.",
+            "en": "Shops, offices and warehouses to rent or buy.",
+            "ar": "إيجار وبيع المحلات والمكاتب والمستودعات."
           }
         },
         {
-          "icon": "description",
+          "icon": "analytics",
           "name": {
-            "tr": "Liste ve açıklama",
-            "en": "List and description",
-            "ar": "قائمة وشرح"
+            "tr": "Değerleme",
+            "en": "Valuation",
+            "ar": "تقييم العقار"
           },
           "description": {
-            "tr": "Özellik ve fiyat listesi.",
-            "en": "Feature and price list.",
-            "ar": "قائمة خصائص وأسعار."
+            "tr": "Bölge rayiçlerine göre fiyat önerisi.",
+            "en": "A price suggestion based on local market rates.",
+            "ar": "اقتراح سعر وفق أسعار السوق في المنطقة."
           }
         },
         {
-          "icon": "schedule",
+          "icon": "event_available",
           "name": {
-            "tr": "Ziyaret",
-            "en": "Visit",
-            "ar": "الزيارة"
+            "tr": "Yer gösterimi",
+            "en": "Property viewings",
+            "ar": "معاينة العقار"
           },
           "description": {
-            "tr": "Zamanlı ziyaret planı.",
-            "en": "Time-arranged visit plan.",
-            "ar": "خطة زيارة في وقت."
+            "tr": "Randevulu ve planlı yerinde gösterim.",
+            "en": "Scheduled on-site viewings by appointment.",
+            "ar": "معاينات ميدانية مجدولة بموعد مسبق."
           }
         },
         {
           "icon": "gavel",
           "name": {
-            "tr": "Sözleşme",
-            "en": "Contract",
-            "ar": "العقد"
+            "tr": "Sözleşme desteği",
+            "en": "Contract support",
+            "ar": "دعم العقود"
           },
           "description": {
-            "tr": "Sözleşme ve dosya (demo).",
-            "en": "Contract and file (demo).",
-            "ar": "عقد وملف (تجريبي)."
+            "tr": "Satış ve kira sürecinde belge bilgilendirmesi (demo).",
+            "en": "Document guidance during sale and rental (demo).",
+            "ar": "إرشاد حول المستندات في عمليات البيع والإيجار (تجريبي)."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Süreç",
+          "en": "Process",
+          "ar": "المراحل"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda anahtar",
+          "en": "Keys in four steps",
+          "ar": "المفاتيح في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Talepten anahtar teslimine.",
+          "en": "From your brief to the handover.",
+          "ar": "من الطلب إلى تسليم المفاتيح."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1837,26 +1848,26 @@
           "year": "01",
           "title": {
             "tr": "Talep",
-            "en": "Request",
+            "en": "Your brief",
             "ar": "الطلب"
           },
           "text": {
-            "tr": "Bölge ve bütçe bilgisi.",
-            "en": "Region and budget information.",
-            "ar": "معلومات المنطقة والميزانية."
+            "tr": "Bölge, bütçe ve oda sayısı.",
+            "en": "Area, budget and number of rooms.",
+            "ar": "المنطقة والميزانية وعدد الغرف."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Ziyaret",
-            "en": "Visit",
-            "ar": "الزيارة"
+            "tr": "Yer gösterimi",
+            "en": "Viewing",
+            "ar": "المعاينة"
           },
           "text": {
-            "tr": "Yer gösterimi ve not.",
-            "en": "Showing and note.",
-            "ar": "عرض وملاحظة."
+            "tr": "Seçilen ilanlar yerinde gezilir.",
+            "en": "The shortlisted properties are visited in person.",
+            "ar": "تُزار العقارات المختارة ميدانيًا."
           }
         },
         {
@@ -1867,22 +1878,22 @@
             "ar": "العرض"
           },
           "text": {
-            "tr": "Fiyat ve sözleşme.",
-            "en": "Price and contract.",
-            "ar": "سعر وعقد."
+            "tr": "Fiyat görüşmesi ve sözleşme taslağı.",
+            "en": "Price discussion and a draft contract.",
+            "ar": "التفاوض على السعر ومسودة العقد."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Teslim",
-            "en": "Delivery",
-            "ar": "التسليم"
+            "tr": "Anahtar teslim",
+            "en": "Handover",
+            "ar": "تسليم المفاتيح"
           },
           "text": {
-            "tr": "Kullanım ve teslim.",
-            "en": "Usage and handover.",
-            "ar": "استخدام وتسليم."
+            "tr": "Kontrol, imza ve anahtar teslimi.",
+            "en": "Inspection, signing and handing over the keys.",
+            "ar": "فحص وتوقيع وتسليم المفاتيح."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Danışmanlarımız",
+          "en": "Our agents",
+          "ar": "مستشارونا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sizinle ilgilenecek ekip",
+          "en": "The team looking after you",
+          "ar": "الفريق الذي سيتولى أمرك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Havva S.",
           "role": {
-            "tr": "Emlak",
+            "tr": "Gayrimenkul danışmanı",
             "en": "Real estate agent",
-            "ar": "عقار"
+            "ar": "مستشارة عقارية"
           },
           "bio": {
-            "tr": "11 yıl konut.",
-            "en": "11 years of housing.",
-            "ar": "١١ عامًا في السكن."
+            "tr": "11 yıl konut satış ve kiralama.",
+            "en": "11 years of home sales and rentals.",
+            "ar": "11 عامًا في بيع المنازل وتأجيرها."
           },
           "img": ""
         },
         {
           "name": "Tolga E.",
           "role": {
-            "tr": "Ziyaret",
-            "en": "Viewings agent",
-            "ar": "زيارة"
+            "tr": "Saha danışmanı",
+            "en": "Field agent",
+            "ar": "مستشار ميداني"
           },
           "bio": {
-            "tr": "6 yıl yer gösterim.",
-            "en": "6 years of showing.",
-            "ar": "٦ سنوات في العرض."
+            "tr": "6 yıl yer gösterimi.",
+            "en": "6 years of property viewings.",
+            "ar": "6 سنوات في معاينة العقارات."
           },
           "img": ""
         },
         {
           "name": "Nur Y.",
           "role": {
-            "tr": "Sözleşme",
+            "tr": "Sözleşme sorumlusu",
             "en": "Contracts officer",
-            "ar": "عقد"
+            "ar": "مسؤولة العقود"
           },
           "bio": {
-            "tr": "5 yıl dosya.",
-            "en": "5 years of files.",
-            "ar": "٥ سنوات في الملفات."
+            "tr": "5 yıl dosya ve sözleşme takibi.",
+            "en": "5 years of file and contract follow-up.",
+            "ar": "5 سنوات في متابعة الملفات والعقود."
           },
           "img": ""
         }
@@ -1998,13 +2009,13 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
           "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
+          "en": "What our clients say",
           "ar": "ماذا يقول عملاؤنا؟"
         },
         "description": {
@@ -2026,39 +2037,39 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Ziyaret düzenli; liste net.",
-            "en": "Visit regular; list clear.",
-            "ar": "زيارة منتظمة؛ القائمة واضحة."
+            "tr": "Yer gösterimi randevulu ve düzenliydi; ilan bilgileri netti.",
+            "en": "The viewing was by appointment and well organised; the listing details were clear.",
+            "ar": "كانت المعاينة بموعد مسبق ومنظمة وكانت بيانات الإعلان واضحة."
           }
         },
         {
           "name": "S. Demirci.",
           "role": {
             "tr": "Alıcı",
-            "en": "Home buyer",
-            "ar": "مشترى"
+            "en": "Buyer",
+            "ar": "مشترٍ"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Kullanım sorusunca yanıt geldi.",
-            "en": "An answer came to the usage question.",
-            "ar": "جاءت إجابة لسؤال الاستخدام."
+            "tr": "Sorularıma aynı gün yanıt geldi.",
+            "en": "My questions were answered the same day.",
+            "ar": "وصلتني إجابات أسئلتي في اليوم نفسه."
           }
         },
         {
           "name": "İ. Doğan.",
           "role": {
-            "tr": "Kiralık",
+            "tr": "Ev sahibi",
             "en": "Landlord",
-            "ar": "كراء"
+            "ar": "مالك عقار"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Dosya kaydı eksiksiz.",
-            "en": "File record is complete.",
-            "ar": "سجل الملف كامل."
+            "tr": "Sözleşme ve dosya eksiksiz hazırlandı.",
+            "en": "The contract and file were prepared in full.",
+            "ar": "أُعدّ العقد والملف بشكل كامل."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "6px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "İlanlarımızda neler var?",
+          "en": "What do our listings include?",
+          "ar": "ماذا في إعلاناتنا؟"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we offer?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Konut, kiralık ve işyeri",
+          "en": "Homes, rentals and offices",
+          "ar": "منازل وإيجارات ومكاتب"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,33 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Yeni konut",
-            "en": "New housing",
-            "ar": "سكن جديد"
+            "tr": "Satılık konut",
+            "en": "Homes for sale",
+            "ar": "منازل للبيع"
           },
           "metin": {
-            "tr": "Daire ve rezidanans (demo).",
-            "en": "Apartment and residence (demo).",
-            "ar": "شقة ومسكن (تجريبي)."
-          },
-          "img": "emlak-ilan-salon.webp",
-          "alt": {
-            "tr": "Temsilî görsel",
-            "en": "Representative image",
-            "ar": "صورة تمثيلية"
-          },
-          "url": "hizmetler"
-        },
-        {
-          "baslik": {
-            "tr": "Kiralık",
-            "en": "For rent",
-            "ar": "للكراء"
-          },
-          "metin": {
-            "tr": "Aylık ve sezon kiralık (demo).",
-            "en": "Monthly and seasonal rental (demo).",
-            "ar": "كراء شهري وموسمي (تجريبي)."
+            "tr": "Daire, villa ve rezidans; konum ve bütçeye göre listeleme.",
+            "en": "Flats, villas and residences listed by location and budget.",
+            "ar": "شقق وفلل ومجمّعات سكنية حسب الموقع والميزانية."
           },
           "img": "emlak-ilan-cephe.webp",
           "alt": {
@@ -2164,16 +2156,35 @@
         },
         {
           "baslik": {
-            "tr": "İşyeri",
-            "en": "Workspace",
-            "ar": "مكتب"
+            "tr": "Kiralık konut",
+            "en": "Homes for rent",
+            "ar": "منازل للإيجار"
           },
           "metin": {
-            "tr": "İşyeri ve ofis alanı.",
-            "en": "Workspace and office area.",
-            "ar": "منطقة عمل ومكتب."
+            "tr": "Aylık ve uzun dönem kiralık daireler.",
+            "en": "Monthly and long-term rental flats.",
+            "ar": "شقق للإيجار الشهري وطويل الأجل."
           },
-          "img": "emlak-ilan-balkon.webp",
+          "img": "emlak-ilan-salon.webp",
+          "alt": {
+            "tr": "Temsilî görsel",
+            "en": "Representative image",
+            "ar": "صورة تمثيلية"
+          },
+          "url": "hizmetler"
+        },
+        {
+          "baslik": {
+            "tr": "İşyeri ve ofis",
+            "en": "Shops and offices",
+            "ar": "محلات ومكاتب"
+          },
+          "metin": {
+            "tr": "Dükkân, ofis ve depo kiralama ve satış.",
+            "en": "Shops, offices and warehouses to rent or buy.",
+            "ar": "إيجار وبيع المحلات والمكاتب والمستودعات."
+          },
+          "img": "emlak-ilan-ofis.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "6px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
+          "tr": "İş birliği yaptığımız kuruluşlar",
           "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "ar": "الجهات التي نتعاون معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal işletme adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional business names; they do not belong to a real organisation.",
+          "ar": "أسماء أعمال افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Daire"
+          "name": "Demo Rezidans"
         },
         {
-          "name": "Demo Rezidanans"
+          "name": "Demo İş Hanı"
         },
         {
-          "name": "Demo İşyeri"
+          "name": "Demo Müteahhit"
         },
         {
-          "name": "Demo Kiracı"
+          "name": "Demo Değerleme"
         },
         {
-          "name": "Demo Liste"
+          "name": "Demo Sigorta"
         },
         {
-          "name": "Demo Anahtar"
+          "name": "Demo Mimarlık"
         }
       ],
       "veri": {
@@ -2291,64 +2302,104 @@
           "ar": "الأسئلة الشائعة"
         },
         "title": {
-          "tr": "Sıkça sorulan sorular",
-          "en": "Frequently asked questions",
-          "ar": "الأسئلة الشائعة"
+          "tr": "Emlak hakkında sorular",
+          "en": "Questions about property",
+          "ar": "أسئلة حول العقارات"
         },
         "description": {
-          "tr": "Merak edilenler ve kısa yanıtlar.",
-          "en": "Common questions and short answers.",
-          "ar": "أسئلة متكررة وإجابات موجزة."
+          "tr": "Kira, eşya ve hizmet bedeli üzerine kısa yanıtlar.",
+          "en": "Short answers on rent, furnishing and fees.",
+          "ar": "إجابات موجزة عن الإيجار والأثاث والأتعاب."
         },
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
       },
       "data": [
         {
-          "soru": {
-            "tr": "Kira nasıl belirlenir?",
+          "question": {
+            "tr": "Kira bedeli nasıl belirlenir?",
             "en": "How is the rent set?",
-            "ar": "كيف يُحدد الإيجار?"
+            "ar": "كيف يُحدَّد الإيجار؟"
           },
-          "cevap": {
-            "tr": "Konum ve ölçüye göre değişir; demo metin örnek vermez.",
-            "en": "It varies by location and size; this demo text gives no example.",
-            "ar": "تتغير حسب الموقع والقياس؛ ولا يعطي هذا النص التجريبي مثالاً."
-          }
-        },
-        {
+          "answer": {
+            "tr": "Konum, metrekare ve bina yaşına göre belirlenir; demo metni örnek rakam vermez.",
+            "en": "It depends on location, floor area and building age; this demo text gives no example figures.",
+            "ar": "يُحدَّد حسب الموقع والمساحة وعمر المبنى؛ ولا يذكر هذا النص التجريبي أرقامًا."
+          },
           "soru": {
-            "tr": "Eşyalı var mı?",
-            "en": "Is there any furnished?",
-            "ar": "هل يوجد مفروش?"
+            "tr": "Kira bedeli nasıl belirlenir?",
+            "en": "How is the rent set?",
+            "ar": "كيف يُحدَّد الإيجار؟"
           },
           "cevap": {
-            "tr": "Bazı konutlarda; liste açıklamasında yazar.",
-            "en": "In some homes; written in the list description.",
-            "ar": "في بعض المساكن؛ مكتوب في وصف القائمة."
+            "tr": "Konum, metrekare ve bina yaşına göre belirlenir; demo metni örnek rakam vermez.",
+            "en": "It depends on location, floor area and building age; this demo text gives no example figures.",
+            "ar": "يُحدَّد حسب الموقع والمساحة وعمر المبنى؛ ولا يذكر هذا النص التجريبي أرقامًا."
           }
         },
         {
+          "question": {
+            "tr": "Eşyalı konut var mı?",
+            "en": "Are there furnished homes?",
+            "ar": "هل تتوفر منازل مفروشة؟"
+          },
+          "answer": {
+            "tr": "Bazı ilanlarda vardır; ilan açıklamasında belirtilir.",
+            "en": "Some listings are furnished; it is stated in the listing description.",
+            "ar": "تتوفر في بعض الإعلانات ويُذكر ذلك في وصف الإعلان."
+          },
+          "soru": {
+            "tr": "Eşyalı konut var mı?",
+            "en": "Are there furnished homes?",
+            "ar": "هل تتوفر منازل مفروشة؟"
+          },
+          "cevap": {
+            "tr": "Bazı ilanlarda vardır; ilan açıklamasında belirtilir.",
+            "en": "Some listings are furnished; it is stated in the listing description.",
+            "ar": "تتوفر في بعض الإعلانات ويُذكر ذلك في وصف الإعلان."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Hizmet bedeli nasıl belirlenir?",
+            "en": "How is the service fee set?",
+            "ar": "كيف تُحدَّد أتعاب الخدمة؟"
+          },
+          "answer": {
+            "tr": "İşleme göre değişir ve satış veya kiralama sözleşmesinde yazılı olarak bildirilir (demo metni).",
+            "en": "It varies by transaction and is stated in writing in the sale or rental agreement (demo text).",
+            "ar": "تختلف حسب العملية وتُذكر كتابةً في عقد البيع أو الإيجار (نص تجريبي)."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Hizmet bedeli nasıl belirlenir?",
+            "en": "How is the service fee set?",
+            "ar": "كيف تُحدَّد أتعاب الخدمة؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "İşleme göre değişir ve satış veya kiralama sözleşmesinde yazılı olarak bildirilir (demo metni).",
+            "en": "It varies by transaction and is stated in writing in the sale or rental agreement (demo text).",
+            "ar": "تختلف حسب العملية وتُذكر كتابةً في عقد البيع أو الإيجار (نص تجريبي)."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "6px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu isteyin",
+          "en": "Request a viewing",
+          "ar": "اطلب موعدًا"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,7 +2472,7 @@
           "ar": "Emlak Danışman"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Randevu formu",
+          "en": "Viewing request form",
+          "ar": "نموذج طلب موعد"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Satılık konut",
+              "en": "Home for sale",
+              "ar": "منزل للبيع"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Kiralık konut",
+              "en": "Home for rent",
+              "ar": "منزل للإيجار"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "İşyeri ve ofis",
+              "en": "Shop or office",
+              "ar": "محل أو مكتب"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Emlak Danışman"
         },
         "description": {
-          "tr": "Emlak Danışman, satış ve kiralama sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Emlak provides sales and rental. Images are representative and text is fictional.",
-          "ar": "يوفر عقار بيع وكراء. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Emlak Danışman; satılık ve kiralık konut, işyeri ve ofis ilanlarını yer gösterimi ve sözleşme desteğiyle sunan bir gayrimenkul danışmanlık ofisidir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Emlak Danışman is a real estate advisory office offering homes, shops and offices for sale and rent with viewings and contract support. Images are representative and text is fictional.",
+          "ar": "Emlak Danışman مكتب استشارات عقارية يعرض المنازل والمحلات والمكاتب للبيع والإيجار مع معاينات ودعم في العقود. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Ziyaret defteri",
-          "en": "Visit book",
-          "ar": "دفتر الزيارات"
+          "tr": "Yer gösterim kaydı",
+          "en": "Viewing log",
+          "ar": "سجل المعاينات"
         },
         "spot2": {
-          "tr": "Her ziyaret için tarih ve kişi kaydı.",
-          "en": "A date and person record for each visit.",
-          "ar": "سجل تاريخ وشخص لكل زيارة."
+          "tr": "Her gösterim için tarih ve ilan kaydı.",
+          "en": "Date and listing recorded for every viewing.",
+          "ar": "تاريخ وإعلان مسجّلان لكل معاينة."
         },
-        "icon2": "verified",
+        "icon2": "event_available",
         "name3": {
           "tr": "Anahtar teslim",
           "en": "Key handover",
-          "ar": "تسليم المفتاح"
+          "ar": "تسليم المفاتيح"
         },
         "spot3": {
-          "tr": "Teslimde kontrol ve imza.",
-          "en": "Control and signature at handover.",
-          "ar": "تحقق وتوقيع عند التسليم."
+          "tr": "Teslimde kontrol listesi ve imza.",
+          "en": "A checklist and signature at handover.",
+          "ar": "قائمة فحص وتوقيع عند التسليم."
         },
-        "icon3": "schedule",
+        "icon3": "key",
         "img": "emlak-danisman-1.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 09:30 – 18:00",
+          "en": "Mon–Sat 09:30 – 18:00",
+          "ar": "الاثنين–السبت 09:30 – 18:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2783,9 +2835,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Randevu ve ilan soruları için",
+          "en": "For viewings and listing questions",
+          "ar": "للمواعيد وأسئلة الإعلانات"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "6px",
         "title": {
-          "tr": "Anahtar elinde",
-          "en": "Key in hand",
-          "ar": "المفتاح بيدك"
+          "tr": "Anahtar elinizde olsun",
+          "en": "Get the keys in your hand",
+          "ar": "لتكن المفاتيح بين يديك"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Bilgilerinizi bırakın; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Leave your details; we reply within two business days. No data is stored on this demo site.",
+          "ar": "اترك بياناتك وسنردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Randevu al",
+          "en": "Book a viewing",
+          "ar": "احجز موعدًا"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "İlanları gör",
+          "en": "See listings",
+          "ar": "شاهد الإعلانات"
         },
         "btn2Url": "hizmetler",
         "number": "903420200108",
